@@ -1,7 +1,7 @@
 # right-sizing-lambda-functions
 
 This project accompanies [a blog post on jSherz.com] that describes how to
-dynamically choose the sized Lambda function to process a file uploaded into an
+dynamically choose a Lambda function sized to process a file uploaded into an
 S3 bucket, e.g. processing user uploads.
 
 [a blog post on jSherz.com]: https://jsherz.com/aws/lambda/2023/06/18/right-sizing-lambda-functions-that-process-files.html
