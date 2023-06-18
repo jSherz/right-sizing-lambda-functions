@@ -15,7 +15,7 @@ resource "aws_xray_sampling_rule" "this" {
 module "files" {
   source = "./modules/s3-bucket"
 
-  name           = "${var.prefix}-files"
+  name           = "${var.prefix}-files-${data.aws_caller_identity.this.account_id}-${data.aws_region.this.name}"
   events_enabled = true
 }
 
